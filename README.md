@@ -4,23 +4,23 @@ Bu proje, kullanıcıların üretim alanları kurarak tarımsal ürünler yetiş
 
 ## 🚀 Projenin Çalıştırılması
 
-Oyun açıldığında doğrudan üretim alanı yerleştirme talebi ile başlar.
+1. Oyun açıldığında doğrudan üretim alanı yerleştirme talebi ile başlar.
 
-Üretim alanı satın alındıktan sonra basılı tutup ekranda sürükleyerek istenilen konuma getirilir.
+2. Üretim alanı satın alındıktan sonra basılı tutup ekranda sürükleyerek istenilen konuma getirilir.
 
-Üretime başlamak için öncelikle tohum satın alınmalıdır.
+3. Üretime başlamak için öncelikle tohum satın alınmalıdır.
 
-Alınan tohumlar, ekranın üst tarafındaki envanter panelinde görüntülenir.
+4. Alınan tohumlar, ekranın üst tarafındaki envanter panelinde görüntülenir.
 
-Ekranın sol tarafında bulunan panel aracılığıyla gerekli araçlara erişilebilir.
+5. Ekranın sol tarafında bulunan panel aracılığıyla gerekli araçlara erişilebilir.
 
-Araçlar kullanılarak tohum ekilir ve büyüme süreci başlar.
+6. Araçlar kullanılarak tohum ekilir ve büyüme süreci başlar.
 
-Yeterli zaman geçtikten sonra ürünler hasat edilebilir.
+7. Yeterli zaman geçtikten sonra ürünler hasat edilebilir.
 
-Hasat edilen ürünler envanterde görüntülenebilir.
+8. Hasat edilen ürünler envanterde görüntülenebilir.
 
-Bu süreç döngüsel olarak devam eder.
+#### Bu süreç döngüsel olarak devam eder.
 
 # 🛠 Kullanılan Teknolojiler
 
