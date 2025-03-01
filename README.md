@@ -74,8 +74,12 @@ Slota dayalı bu sistem sayesinde basit ama modüler bir yapı elde edilmiştir.
 Bina ve tohum alımı için basit bir market sistemi oyuna dahil edilmiştir.
 
 Çevre Tasarımı:
-Ücretsiz bir model paketinden faydalanılarak basit bir seviye tasarlanmıştır.
+Ücretsiz bir model paketinden [1] faydalanılarak basit bir seviye tasarlanmıştır.
 Seviye istenilen boyutta büyütülerek içi modellerle doldurulabilir.
+
+KAYNAK
+
+[1] https://crisdias.itch.io/farm-asset-pack
 
 ÖNİZLEME
 
