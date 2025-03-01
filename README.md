@@ -1,5 +1,6 @@
 #Proje Hakkında
 
+
 Bu proje, kullanıcıların üretim alanları kurarak tarımsal ürünler yetiştirmesini ve kaynak yönetimini içeren bir oyun geliştirme çalışmasıdır.
 
 ##🚀 Projenin Çalıştırılması
