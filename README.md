@@ -1,13 +1,13 @@
 Projenin Çalıştırılması
 
-	Proje direkt oyuna girer ve kullanıcıdan oyunun devam ettirilebilmesi için üretim alanı koyulmasını ister.
-	Koyulan üretim alanı veya alanlarına ekim işlemi için öncelikle tohum alınması gerekir.
-	Alınan tohum - tohumlar ekranın üst tarafında bulunan envanter panelinde anlık görüntülenmektedir.
-	Kullanıcı ekranın sol tarafında bulunan panel yardımı ile gerekli araçları görebilmektedir.
-	Araçlar yardımı ile alınan tohumlar üretim alanlarına ekilir ve büyüme süreci başlar.
-	Yeterince zaman geçtikten sonra ürünler yine araç yardımı ile hasat edilebilmektedir.
-	Hasat edilen ürün envanter üzerinden kontrol edilebilmektedir.
-	Döngü bu şekilde devam eder.
+Proje direkt oyuna girer ve kullanıcıdan oyunun devam ettirilebilmesi için üretim alanı koyulmasını ister.
+Koyulan üretim alanı veya alanlarına ekim işlemi için öncelikle tohum alınması gerekir.
+Alınan tohum - tohumlar ekranın üst tarafında bulunan envanter panelinde anlık görüntülenmektedir.
+Kullanıcı ekranın sol tarafında bulunan panel yardımı ile gerekli araçları görebilmektedir.
+Araçlar yardımı ile alınan tohumlar üretim alanlarına ekilir ve büyüme süreci başlar.
+Yeterince zaman geçtikten sonra ürünler yine araç yardımı ile hasat edilebilmektedir.
+Hasat edilen ürün envanter üzerinden kontrol edilebilmektedir.
+Döngü bu şekilde devam eder.
 
 Kullanılan Teknolojiler
 
