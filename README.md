@@ -13,6 +13,7 @@ Döngü bu şekilde devam eder.
 Kullanılan Teknolojiler
 
 
+
 1. Oyun Motoru & Grafik
 
 Unity 3D: Oyun motoru olarak kullanılıyor.
