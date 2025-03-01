@@ -183,6 +183,7 @@ public class PlacementSystem : MonoBehaviour
             if (mIsReplacing) // If replacing, just move the existing building
             {
                 mBuildingToPlace.transform.position = placementPos;
+                mBuildingToPlace.transform.rotation = mGhostObject.transform.rotation;
                 mBuildingToPlace.gameObject.SetActive(true); // Reactivate the building
                 mBuildingToPlace.OccupiedPositions = OccupyGridCells(placementPos);
                 mIsReplacing = false; // Reset replacing state
