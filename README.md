@@ -24,13 +24,13 @@ Bu süreç döngüsel olarak devam eder.
 
 ## 🎮 Oyun Motoru & Grafik
 
-Unity 3D: Oyun motoru olarak kullanıldı.
+- Unity 3D: Oyun motoru olarak kullanıldı.
 
-URP (Universal Render Pipeline): Platform desteği ve shader optimizasyonu için tercih edildi.
+- URP (Universal Render Pipeline): Platform desteği ve shader optimizasyonu için tercih edildi.
 
-2D/3D Grafikler: Oyun 3D odaklı olup, UI ve efektlerde 2D sprite'lar kullanılabilir.
+- 2D/3D Grafikler: Oyun 3D odaklı olup, UI ve efektlerde 2D sprite'lar kullanılabilir.
 
-Shader Graph / Custom Shaders: Hayalet bina efekti ve diğer görsel efektler için özel shader'lar geliştirildi.
+- Shader Graph / Custom Shaders: Hayalet bina efekti ve diğer görsel efektler için özel shader'lar geliştirildi.
 
 ## 🎮 Gameplay Sistemleri
 
