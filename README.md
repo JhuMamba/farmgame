@@ -2,7 +2,7 @@
 
 Bu proje, kullanıcıların üretim alanları kurarak tarımsal ürünler yetiştirmesini ve kaynak yönetimini içeren bir oyun geliştirme çalışmasıdır.
 
-##🚀 Projenin Çalıştırılması
+## 🚀 Projenin Çalıştırılması
 
 Oyun açıldığında doğrudan üretim alanı yerleştirme talebi ile başlar.
 
