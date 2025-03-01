@@ -1,89 +1,90 @@
-Projenin Çalıştırılması
+Proje Hakkında
 
-Proje direkt oyuna girer ve kullanıcıdan oyunun devam ettirilebilmesi için üretim alanı koyulmasını ister.
-Koyulan üretim alanı veya alanlarına ekim işlemi için öncelikle tohum alınması gerekir.
-Alınan tohum - tohumlar ekranın üst tarafında bulunan envanter panelinde anlık görüntülenmektedir.
-Kullanıcı ekranın sol tarafında bulunan panel yardımı ile gerekli araçları görebilmektedir.
-Araçlar yardımı ile alınan tohumlar üretim alanlarına ekilir ve büyüme süreci başlar.
-Yeterince zaman geçtikten sonra ürünler yine araç yardımı ile hasat edilebilmektedir.
-Hasat edilen ürün envanter üzerinden kontrol edilebilmektedir.
-Döngü bu şekilde devam eder.
+Bu proje, kullanıcıların üretim alanları kurarak tarımsal ürünler yetiştirmesini ve kaynak yönetimini içeren bir oyun geliştirme çalışmasıdır.
 
+🚀 Projenin Çalıştırılması
 
-Kullanılan Teknolojiler
+Oyun açıldığında doğrudan üretim alanı yerleştirme talebi ile başlar.
 
+Üretime başlamak için öncelikle tohum satın alınmalıdır.
 
+Alınan tohumlar, ekranın üst tarafındaki envanter panelinde görüntülenir.
 
-1. Oyun Motoru & Grafik
+Ekranın sol tarafında bulunan panel aracılığıyla gerekli araçlara erişilebilir.
 
-Unity 3D: Oyun motoru olarak kullanılıyor.
+Araçlar kullanılarak tohum ekilir ve büyüme süreci başlar.
 
-URP: URP genel platform desteği ve shader optimizasyonu sebebi ile tercih edilmiştir.
+Yeterli zaman geçtikten sonra ürünler hasat edilebilir.
 
-2D/3D Grafikler: Oyun 3D odaklı ama 2D sprite tabanlı UI ve efektler kullanılabilir.
+Hasat edilen ürünler envanterde görüntülenebilir.
 
-Shader Graph / Custom Shaders: Hayalet bina efekti sağlamak için özel shader kullanımı.
+Bu süreç döngüsel olarak devam eder.
 
+🛠 Kullanılan Teknolojiler
 
-3. Gameplay Sistemleri
+🎮 Oyun Motoru & Grafik
 
-Grid Tabanlı Özel Yerleştirme Sistemi:
+Unity 3D: Oyun motoru olarak kullanıldı.
 
-Yapılar belirli bir grid boyutuna göre yerleştirilir.
+URP (Universal Render Pipeline): Platform desteği ve shader optimizasyonu için tercih edildi.
 
-Bina döndürme ve yerleştirme doğrulama sistemleri vardır.
+2D/3D Grafikler: Oyun 3D odaklı olup, UI ve efektlerde 2D sprite'lar kullanılabilir.
 
-Veri akış hızı ve kolaylığı sebebi ile HashSet kullanılmıştır.
+Shader Graph / Custom Shaders: Hayalet bina efekti ve diğer görsel efektler için özel shader'lar geliştirildi.
 
+🎮 Gameplay Sistemleri
 
-Çeşitli Bina Tipleri:
+🏗️ Grid Tabanlı Yerleştirme Sistemi
 
-Ana bina sınıfından türetilmiş üç adet çocuk sınıf bulunmaktadır.
+Yapılar belirli bir grid sistemine göre yerleştirilir.
 
-Bu sınıflar kaynak üretebilen, depo ve boş şeklindedir.
+Bina döndürme ve yerleştirme doğrulama mekanizmaları bulunur.
 
-Boş ve depo binaları sisteme dahil edilmiş fakat oyuna dahil edilmemiştir.
+Veri akışı optimizasyonu için HashSet kullanılmıştır.
 
+🏢 Bina Türleri
 
-Kaynak Yönetimi & Üretim:
+Ana bina sınıfından türetilmiş üç temel bina türü bulunmaktadır:
 
-Kaynak üretebilen binalar büyüme süresine bağlı olarak kaynak üretebilir.
+Kaynak üreten binalar
 
-Kaynak üretebilen binalar kaynak tipine göre modüler bir şekilde her kaynağı üretebilir.
+Depo binaları
 
-Kaynaklar üç ana süreçten geçer ve bunlar oyun içerisinde gözlemlenebilir. (Ekim, Büyüme, Hasat)
+Boş binalar (Henüz oyunda kullanılmıyor, ancak sisteme dahil edilmiştir.)
 
-Kaynak üretimi UTC' ye bağlı olarak üretim yapmaktadır. Backend kolaylığı düşünülmüştür.
+🌾 Kaynak Yönetimi & Üretim
 
-Tasarlanan modüler item ve kaynak sistemleri ile istenilen kaynak ve item anında implemente edilebilmektedir.
+Kaynak üreten binalar, büyüme süresine bağlı olarak üretim yapar.
 
+Kaynak üretim sistemi modülerdir, her bina farklı kaynak türlerini üretebilir.
 
-Araç Kullanımı:
+Kaynaklar üç aşamadan geçer: Ekim → Büyüme → Hasat
 
-Ekin ekmeye ve biçmeye yarayan araçlar implemente edilmiştir.
+Üretim süreci UTC tabanlıdır, böylece backend ile kolay entegrasyon sağlanır.
 
-Baz araç default olarak belirtilmiştir.
+Modüler item ve kaynak sistemi sayesinde yeni içerikler hızlıca eklenebilir.
 
+🚜 Araç Kullanımı
 
-Market ve Envanter Sistemleri:
+Ekin ekme ve hasat etme işlemleri için araçlar geliştirilmiştir.
 
-Oyuncunun anlık sahip olduğu eşyalar envanter kısmında görüntülenmektedir.
+Varsayılan bir temel araç bulunmaktadır, farklı araç türleri eklenebilir.
 
-Slota dayalı bu sistem sayesinde basit ama modüler bir yapı elde edilmiştir.
+🛒 Market & Envanter Sistemleri
 
-Bina ve tohum alımı için basit bir market sistemi oyuna dahil edilmiştir.
+Oyuncunun sahip olduğu tüm eşyalar envanter panelinde görüntülenir.
 
-Çevre Tasarımı:
-Ücretsiz bir model paketinden [1] faydalanılarak basit bir seviye tasarlanmıştır.
+Slot tabanlı modüler envanter sistemi sayesinde esnek bir yapı oluşturulmuştur.
 
-Seviye istenilen boyutta büyütülerek içi modellerle doldurulabilir.
+Bina ve tohum satın almak için basit bir market sistemi mevcuttur.
 
-KAYNAK
+🌍 Çevre Tasarımı
 
-[1] https://crisdias.itch.io/farm-asset-pack
+Ücretsiz model paketleri kullanılarak basit bir seviye tasarımı oluşturulmuştur.
 
-ÖNİZLEME
+Seviye genişletilebilir ve içerisine yeni modeller eklenebilir.
 
+📸 Önizleme
 ![Screenshot 2025-03-01 025739](https://github.com/user-attachments/assets/bd7ed43b-03c3-4dd8-bd21-d30b99ff5c23)
 ![Screenshot 2025-03-01 025826](https://github.com/user-attachments/assets/b9fa5ccd-562a-4c35-98d4-292699d90943)
 ![Screenshot 2025-03-01 025841](https://github.com/user-attachments/assets/98bf1eec-a48c-475a-8e83-c73a6168d561)
