@@ -13,10 +13,10 @@ Kullanılan Teknolojiler
 
 1. Oyun Motoru & Grafik
 
-	Unity 3D: Oyun motoru olarak kullanılıyor.
-	URP: URP genel platform desteği ve shader optimizasyonu sebebi ile tercih edilmiştir.
-	2D/3D Grafikler: Oyun 3D odaklı ama 2D sprite tabanlı UI ve efektler kullanılabilir.
-	Shader Graph / Custom Shaders: Hayalet bina efekti sağlamak için özel shader kullanımı.
+Unity 3D: Oyun motoru olarak kullanılıyor.
+URP: URP genel platform desteği ve shader optimizasyonu sebebi ile tercih edilmiştir.
+2D/3D Grafikler: Oyun 3D odaklı ama 2D sprite tabanlı UI ve efektler kullanılabilir.
+Shader Graph / Custom Shaders: Hayalet bina efekti sağlamak için özel shader kullanımı.
 
 2. Gameplay Sistemleri
 
