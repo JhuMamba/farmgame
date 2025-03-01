@@ -6,6 +6,8 @@ Bu proje, kullanıcıların üretim alanları kurarak tarımsal ürünler yetiş
 
 Oyun açıldığında doğrudan üretim alanı yerleştirme talebi ile başlar.
 
+Üretim alanı satın alındıktan sonra basılı tutup ekranda sürükleyerek istenilen konuma getirilir.
+
 Üretime başlamak için öncelikle tohum satın alınmalıdır.
 
 Alınan tohumlar, ekranın üst tarafındaki envanter panelinde görüntülenir.
@@ -36,56 +38,56 @@ Bu süreç döngüsel olarak devam eder.
 
 ### 🏗️ Grid Tabanlı Yerleştirme Sistemi
 
-Yapılar belirli bir grid sistemine göre yerleştirilir.
+- Yapılar belirli bir grid sistemine göre yerleştirilir.
 
-Bina döndürme ve yerleştirme doğrulama mekanizmaları bulunur.
+- Bina döndürme ve yerleştirme doğrulama mekanizmaları bulunur.
 
-Veri akışı optimizasyonu için HashSet kullanılmıştır.
+- Veri akışı optimizasyonu için HashSet kullanılmıştır.
 
 ### 🏢 Bina Türleri
 
 Ana bina sınıfından türetilmiş üç temel bina türü bulunmaktadır:
 
-Kaynak üreten binalar
+* Kaynak üreten binalar
 
-Depo binaları
+* Depo binaları
 
-Boş binalar (Henüz oyunda kullanılmıyor, ancak sisteme dahil edilmiştir.)
+* Boş binalar (Henüz oyunda kullanılmıyor, ancak sisteme dahil edilmiştir.)
 
 ### 🌾 Kaynak Yönetimi & Üretim
 
-Kaynak üreten binalar, büyüme süresine bağlı olarak üretim yapar.
+- Kaynak üreten binalar, büyüme süresine bağlı olarak üretim yapar.
 
-Kaynak üretim sistemi modülerdir, her bina farklı kaynak türlerini üretebilir.
+- Kaynak üretim sistemi modülerdir, her bina farklı kaynak türlerini üretebilir.
 
-Kaynaklar üç aşamadan geçer: Ekim → Büyüme → Hasat
+- Kaynaklar üç aşamadan geçer: Ekim → Büyüme → Hasat
 
-Üretim süreci UTC tabanlıdır, böylece backend ile kolay entegrasyon sağlanır.
+- Üretim süreci UTC tabanlıdır, böylece backend ile kolay entegrasyon sağlanır.
 
-Modüler item ve kaynak sistemi sayesinde yeni içerikler hızlıca eklenebilir.
+- Modüler eşya ve kaynak sistemi sayesinde yeni içerikler hızlıca eklenebilir.
 
 ### 🚜 Araç Kullanımı
 
-Ekin ekme ve hasat etme işlemleri için araçlar geliştirilmiştir.
+- Ekin ekme ve hasat etme işlemleri için araçlar geliştirilmiştir.
 
-Varsayılan bir temel araç bulunmaktadır, farklı araç türleri eklenebilir.
+- Varsayılan bir temel araç bulunmaktadır, farklı araç türleri eklenebilir.
 
 ### 🛒 Market & Envanter Sistemleri
 
-Oyuncunun sahip olduğu tüm eşyalar envanter panelinde görüntülenir.
+- Oyuncunun sahip olduğu tüm eşyalar envanter panelinde görüntülenir.
 
-Slot tabanlı modüler envanter sistemi sayesinde esnek bir yapı oluşturulmuştur.
+- Slot tabanlı modüler envanter sistemi sayesinde esnek bir yapı oluşturulmuştur.
 
-Bina ve tohum satın almak için basit bir market sistemi mevcuttur.
+- Bina ve tohum satın almak için basit bir market sistemi mevcuttur.
 
 ### 🌍 Çevre Tasarımı
 
-Ücretsiz model paketleri kullanılarak [1] basit bir seviye tasarımı oluşturulmuştur.
+- Ücretsiz model paketleri kullanılarak [1] basit bir seviye tasarımı oluşturulmuştur.
 
-Seviye genişletilebilir ve içerisine yeni modeller eklenebilir.
+- Seviye genişletilebilir ve içerisine yeni modeller eklenebilir.
 
 # KAYNAK
-[1] https://crisdias.itch.io/farm-asset-pack
+* [1] https://crisdias.itch.io/farm-asset-pack
 
 # 📸 Önizleme
 
