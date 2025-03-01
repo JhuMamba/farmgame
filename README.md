@@ -76,3 +76,11 @@ Bina ve tohum alımı için basit bir market sistemi oyuna dahil edilmiştir.
 Çevre Tasarımı:
 Ücretsiz bir model paketinden faydalanılarak basit bir seviye tasarlanmıştır.
 Seviye istenilen boyutta büyütülerek içi modellerle doldurulabilir.
+
+ÖNİZLEME
+
+![Screenshot 2025-03-01 025739](https://github.com/user-attachments/assets/bd7ed43b-03c3-4dd8-bd21-d30b99ff5c23)
+![Screenshot 2025-03-01 025826](https://github.com/user-attachments/assets/b9fa5ccd-562a-4c35-98d4-292699d90943)
+![Screenshot 2025-03-01 025841](https://github.com/user-attachments/assets/98bf1eec-a48c-475a-8e83-c73a6168d561)
+![Screenshot 2025-03-01 030122](https://github.com/user-attachments/assets/3a648c76-d4f7-4ac8-9573-cb5823ee53d2)
+
