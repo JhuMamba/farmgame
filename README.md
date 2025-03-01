@@ -9,7 +9,9 @@ Yeterince zaman geçtikten sonra ürünler yine araç yardımı ile hasat edileb
 Hasat edilen ürün envanter üzerinden kontrol edilebilmektedir.
 Döngü bu şekilde devam eder.
 
+
 Kullanılan Teknolojiler
+
 
 1. Oyun Motoru & Grafik
 
