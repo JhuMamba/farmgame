@@ -85,6 +85,7 @@ Bina ve tohum satın almak için basit bir market sistemi mevcuttur.
 Seviye genişletilebilir ve içerisine yeni modeller eklenebilir.
 
 📸 Önizleme
+
 ![Screenshot 2025-03-01 025739](https://github.com/user-attachments/assets/bd7ed43b-03c3-4dd8-bd21-d30b99ff5c23)
 ![Screenshot 2025-03-01 025826](https://github.com/user-attachments/assets/b9fa5ccd-562a-4c35-98d4-292699d90943)
 ![Screenshot 2025-03-01 025841](https://github.com/user-attachments/assets/98bf1eec-a48c-475a-8e83-c73a6168d561)
