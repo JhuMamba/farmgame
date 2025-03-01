@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # farmgame
+=======
+>>>>>>> c6fef130e4a237d634629ceda7ffeb31009fa752
 Projenin Çalıştırılması
 
 Proje direkt oyuna girer ve kullanıcıdan oyunun devam ettirilebilmesi için üretim alanı koyulmasını ister.
